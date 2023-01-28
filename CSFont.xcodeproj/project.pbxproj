@@ -55,12 +55,19 @@
 		A0F48AE229852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AA929852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Black.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
 		A0F48AE329852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AAA29852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Thin.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
 		A0F48AE529852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AAC29852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Bold.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
-		A0F48AE629852614005FF37D /* HarmonyOS_Sans_TC_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AAE29852614005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
-		A0F48AE729852614005FF37D /* HarmonyOS_Sans_TC_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AAF29852614005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
-		A0F48AE829852614005FF37D /* HarmonyOS_Sans_TC_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AB029852614005FF37D /* HarmonyOS_Sans_TC_Light.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
-		A0F48AE929852614005FF37D /* HarmonyOS_Sans_TC_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AB129852614005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
-		A0F48AEA29852614005FF37D /* HarmonyOS_Sans_TC_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AB229852614005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
-		A0F48AEB29852614005FF37D /* HarmonyOS_Sans_TC_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AB329852614005FF37D /* HarmonyOS_Sans_TC_Black.ttf */; settings = {ASSET_TAGS = (fonts, ); }; };
+		A0F48AF5298527C4005FF37D /* HarmonyOS_Sans_TC_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AEE298527C4005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */; };
+		A0F48AF6298527C4005FF37D /* HarmonyOS_Sans_TC_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AEF298527C4005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */; };
+		A0F48AF7298527C4005FF37D /* HarmonyOS_Sans_TC_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AF0298527C4005FF37D /* HarmonyOS_Sans_TC_Light.ttf */; };
+		A0F48AF8298527C4005FF37D /* HarmonyOS_Sans_TC_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AF1298527C4005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */; };
+		A0F48AF9298527C4005FF37D /* HarmonyOS_Sans_TC_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AF2298527C4005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */; };
+		A0F48AFA298527C4005FF37D /* HarmonyOS_Sans_TC_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AF3298527C4005FF37D /* HarmonyOS_Sans_TC_Black.ttf */; };
+		A0F48AFB298527C4005FF37D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AF4298527C4005FF37D /* LICENSE.txt */; };
+		A0F48B04298527D6005FF37D /* HarmonyOS_Sans_TC_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AFD298527D6005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */; };
+		A0F48B05298527D6005FF37D /* HarmonyOS_Sans_TC_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AFE298527D6005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */; };
+		A0F48B06298527D6005FF37D /* HarmonyOS_Sans_TC_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48AFF298527D6005FF37D /* HarmonyOS_Sans_TC_Light.ttf */; };
+		A0F48B07298527D6005FF37D /* HarmonyOS_Sans_TC_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48B00298527D6005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */; };
+		A0F48B08298527D6005FF37D /* HarmonyOS_Sans_TC_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48B01298527D6005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */; };
+		A0F48B09298527D6005FF37D /* HarmonyOS_Sans_TC_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F48B02298527D6005FF37D /* HarmonyOS_Sans_TC_Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,13 +129,20 @@
 		A0F48AAA29852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_Naskh_Arabic_Thin.ttf; sourceTree = "<group>"; };
 		A0F48AAB29852614005FF37D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		A0F48AAC29852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_Naskh_Arabic_Bold.ttf; sourceTree = "<group>"; };
-		A0F48AAE29852614005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Regular.ttf; sourceTree = "<group>"; };
-		A0F48AAF29852614005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Medium.ttf; sourceTree = "<group>"; };
-		A0F48AB029852614005FF37D /* HarmonyOS_Sans_TC_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Light.ttf; sourceTree = "<group>"; };
-		A0F48AB129852614005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Thin.ttf; sourceTree = "<group>"; };
-		A0F48AB229852614005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Bold.ttf; sourceTree = "<group>"; };
-		A0F48AB329852614005FF37D /* HarmonyOS_Sans_TC_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Black.ttf; sourceTree = "<group>"; };
-		A0F48AB429852614005FF37D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A0F48AEE298527C4005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Regular.ttf; sourceTree = "<group>"; };
+		A0F48AEF298527C4005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Medium.ttf; sourceTree = "<group>"; };
+		A0F48AF0298527C4005FF37D /* HarmonyOS_Sans_TC_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Light.ttf; sourceTree = "<group>"; };
+		A0F48AF1298527C4005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Thin.ttf; sourceTree = "<group>"; };
+		A0F48AF2298527C4005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Bold.ttf; sourceTree = "<group>"; };
+		A0F48AF3298527C4005FF37D /* HarmonyOS_Sans_TC_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Black.ttf; sourceTree = "<group>"; };
+		A0F48AF4298527C4005FF37D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A0F48AFD298527D6005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Regular.ttf; sourceTree = "<group>"; };
+		A0F48AFE298527D6005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Medium.ttf; sourceTree = "<group>"; };
+		A0F48AFF298527D6005FF37D /* HarmonyOS_Sans_TC_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Light.ttf; sourceTree = "<group>"; };
+		A0F48B00298527D6005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Thin.ttf; sourceTree = "<group>"; };
+		A0F48B01298527D6005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Bold.ttf; sourceTree = "<group>"; };
+		A0F48B02298527D6005FF37D /* HarmonyOS_Sans_TC_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarmonyOS_Sans_TC_Black.ttf; sourceTree = "<group>"; };
+		A0F48B03298527D6005FF37D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +191,7 @@
 		A0F48A7429852614005FF37D /* HarmonyOS Sans */ = {
 			isa = PBXGroup;
 			children = (
+				A0F48AFC298527D6005FF37D /* HarmonyOS_Sans_TC */,
 				A0F48A7529852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI */,
 				A0F48A7D29852614005FF37D /* HarmonyOS_Sans_Italic */,
 				A0F48A8529852614005FF37D /* HarmonyOS_Sans_SC */,
@@ -184,7 +199,6 @@
 				A0F48A9529852614005FF37D /* HarmonyOS_Sans_Condensed_Italic */,
 				A0F48A9D29852614005FF37D /* HarmonyOS_Sans */,
 				A0F48AA529852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic */,
-				A0F48AAD29852614005FF37D /* HarmonyOS_Sans_TC */,
 			);
 			path = "HarmonyOS Sans";
 			sourceTree = "<group>";
@@ -276,6 +290,7 @@
 		A0F48AA529852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic */ = {
 			isa = PBXGroup;
 			children = (
+				A0F48AED298527C4005FF37D /* HarmonyOS_Sans_TC */,
 				A0F48AA629852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Regular.ttf */,
 				A0F48AA729852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Light.ttf */,
 				A0F48AA829852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Medium.ttf */,
@@ -287,16 +302,31 @@
 			path = HarmonyOS_Sans_Naskh_Arabic;
 			sourceTree = "<group>";
 		};
-		A0F48AAD29852614005FF37D /* HarmonyOS_Sans_TC */ = {
+		A0F48AED298527C4005FF37D /* HarmonyOS_Sans_TC */ = {
 			isa = PBXGroup;
 			children = (
-				A0F48AAE29852614005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */,
-				A0F48AAF29852614005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */,
-				A0F48AB029852614005FF37D /* HarmonyOS_Sans_TC_Light.ttf */,
-				A0F48AB129852614005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */,
-				A0F48AB229852614005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */,
-				A0F48AB329852614005FF37D /* HarmonyOS_Sans_TC_Black.ttf */,
-				A0F48AB429852614005FF37D /* LICENSE.txt */,
+				A0F48AEE298527C4005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */,
+				A0F48AEF298527C4005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */,
+				A0F48AF0298527C4005FF37D /* HarmonyOS_Sans_TC_Light.ttf */,
+				A0F48AF1298527C4005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */,
+				A0F48AF2298527C4005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */,
+				A0F48AF3298527C4005FF37D /* HarmonyOS_Sans_TC_Black.ttf */,
+				A0F48AF4298527C4005FF37D /* LICENSE.txt */,
+			);
+			name = HarmonyOS_Sans_TC;
+			path = "CSFont/HarmonyOS Sans/HarmonyOS_Sans_TC";
+			sourceTree = SOURCE_ROOT;
+		};
+		A0F48AFC298527D6005FF37D /* HarmonyOS_Sans_TC */ = {
+			isa = PBXGroup;
+			children = (
+				A0F48AFD298527D6005FF37D /* HarmonyOS_Sans_TC_Regular.ttf */,
+				A0F48AFE298527D6005FF37D /* HarmonyOS_Sans_TC_Medium.ttf */,
+				A0F48AFF298527D6005FF37D /* HarmonyOS_Sans_TC_Light.ttf */,
+				A0F48B00298527D6005FF37D /* HarmonyOS_Sans_TC_Thin.ttf */,
+				A0F48B01298527D6005FF37D /* HarmonyOS_Sans_TC_Bold.ttf */,
+				A0F48B02298527D6005FF37D /* HarmonyOS_Sans_TC_Black.ttf */,
+				A0F48B03298527D6005FF37D /* LICENSE.txt */,
 			);
 			path = HarmonyOS_Sans_TC;
 			sourceTree = "<group>";
@@ -362,27 +392,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F48AE929852614005FF37D /* HarmonyOS_Sans_TC_Thin.ttf in Resources */,
+				A0F48AF9298527C4005FF37D /* HarmonyOS_Sans_TC_Bold.ttf in Resources */,
 				A0F48ACA29852614005FF37D /* HarmonyOS_Sans_Condensed_Medium.ttf in Resources */,
+				A0F48B07298527D6005FF37D /* HarmonyOS_Sans_TC_Thin.ttf in Resources */,
 				A0F48AD229852614005FF37D /* HarmonyOS_Sans_Condensed_Regular_Italic.ttf in Resources */,
 				A0F48AC229852614005FF37D /* HarmonyOS_Sans_Medium_Italic.ttf in Resources */,
+				A0F48AF5298527C4005FF37D /* HarmonyOS_Sans_TC_Regular.ttf in Resources */,
 				A0F48AB829852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI_Black.ttf in Resources */,
 				A0F48AD429852614005FF37D /* HarmonyOS_Sans_Condensed_Black_Italic.ttf in Resources */,
 				A0F48ABB29852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI_Regular.ttf in Resources */,
 				A0F48ADC29852614005FF37D /* HarmonyOS_Sans_Bold.ttf in Resources */,
 				A0F48AB929852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI_Bold.ttf in Resources */,
-				A0F48AE829852614005FF37D /* HarmonyOS_Sans_TC_Light.ttf in Resources */,
+				A0F48B06298527D6005FF37D /* HarmonyOS_Sans_TC_Light.ttf in Resources */,
+				A0F48AFB298527C4005FF37D /* LICENSE.txt in Resources */,
 				A0F48AD929852614005FF37D /* HarmonyOS_Sans_Light.ttf in Resources */,
 				A048BE952984F26000DA3D85 /* LaunchScreen.storyboard in Resources */,
 				A0F48AE129852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Medium.ttf in Resources */,
 				A0F48ACE29852614005FF37D /* HarmonyOS_Sans_Condensed_Black.ttf in Resources */,
+				A0F48AF8298527C4005FF37D /* HarmonyOS_Sans_TC_Thin.ttf in Resources */,
 				A0F48AC329852614005FF37D /* HarmonyOS_Sans_SC_Regular.ttf in Resources */,
 				A0F48AD329852614005FF37D /* HarmonyOS_Sans_Condensed_Thin_Italic.ttf in Resources */,
 				A0F48AE229852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Black.ttf in Resources */,
 				A0F48AC829852614005FF37D /* HarmonyOS_Sans_SC_Thin.ttf in Resources */,
+				A0F48AFA298527C4005FF37D /* HarmonyOS_Sans_TC_Black.ttf in Resources */,
 				A0F48AC429852614005FF37D /* HarmonyOS_Sans_SC_Light.ttf in Resources */,
 				A048BE922984F26000DA3D85 /* Assets.xcassets in Resources */,
-				A0F48AEB29852614005FF37D /* HarmonyOS_Sans_TC_Black.ttf in Resources */,
+				A0F48B09298527D6005FF37D /* HarmonyOS_Sans_TC_Black.ttf in Resources */,
 				A048BE902984F25D00DA3D85 /* Main.storyboard in Resources */,
 				A0F48AB729852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI_Thin.ttf in Resources */,
 				A0F48AC029852614005FF37D /* HarmonyOS_Sans_Light_Italic.ttf in Resources */,
@@ -390,9 +425,9 @@
 				A0F48AC729852614005FF37D /* HarmonyOS_Sans_SC_Bold.ttf in Resources */,
 				A0F48AC529852614005FF37D /* HarmonyOS_Sans_SC_Black.ttf in Resources */,
 				A0F48AD629852614005FF37D /* HarmonyOS_Sans_Condensed_Bold_Italic.ttf in Resources */,
-				A0F48AEA29852614005FF37D /* HarmonyOS_Sans_TC_Bold.ttf in Resources */,
+				A0F48B08298527D6005FF37D /* HarmonyOS_Sans_TC_Bold.ttf in Resources */,
 				A0F48AE329852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Thin.ttf in Resources */,
-				A0F48AE629852614005FF37D /* HarmonyOS_Sans_TC_Regular.ttf in Resources */,
+				A0F48B04298527D6005FF37D /* HarmonyOS_Sans_TC_Regular.ttf in Resources */,
 				A0F48ABC29852614005FF37D /* HarmonyOS_Sans_Black_Italic.ttf in Resources */,
 				A0F48ACC29852614005FF37D /* HarmonyOS_Sans_Condensed_Regular.ttf in Resources */,
 				A0F48AC929852614005FF37D /* HarmonyOS_Sans_SC_Medium.ttf in Resources */,
@@ -403,11 +438,13 @@
 				A0F48AD129852614005FF37D /* HarmonyOS_Sans_Condensed_Light_Italic.ttf in Resources */,
 				A0F48ABE29852614005FF37D /* HarmonyOS_Sans_Regular_Italic.ttf in Resources */,
 				A0F48AB629852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI_Light.ttf in Resources */,
-				A0F48AE729852614005FF37D /* HarmonyOS_Sans_TC_Medium.ttf in Resources */,
 				A0F48ABF29852614005FF37D /* HarmonyOS_Sans_Thin_Italic.ttf in Resources */,
 				A0F48AD029852614005FF37D /* HarmonyOS_Sans_Condensed_Bold.ttf in Resources */,
+				A0F48B05298527D6005FF37D /* HarmonyOS_Sans_TC_Medium.ttf in Resources */,
 				A0F48ADE29852614005FF37D /* HarmonyOS_Sans_Thin.ttf in Resources */,
 				A0F48AB529852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_UI_Medium.ttf in Resources */,
+				A0F48AF6298527C4005FF37D /* HarmonyOS_Sans_TC_Medium.ttf in Resources */,
+				A0F48AF7298527C4005FF37D /* HarmonyOS_Sans_TC_Light.ttf in Resources */,
 				A0F48ADB29852614005FF37D /* HarmonyOS_Sans_Black.ttf in Resources */,
 				A0F48AE029852614005FF37D /* HarmonyOS_Sans_Naskh_Arabic_Light.ttf in Resources */,
 				A0F48AD729852614005FF37D /* HarmonyOS_Sans_Condensed_Medium_Italic.ttf in Resources */,
