@@ -13,6 +13,7 @@
 		A048BE902984F25D00DA3D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A048BE8E2984F25D00DA3D85 /* Main.storyboard */; };
 		A048BE922984F26000DA3D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A048BE912984F26000DA3D85 /* Assets.xcassets */; };
 		A048BE952984F26000DA3D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A048BE932984F26000DA3D85 /* LaunchScreen.storyboard */; };
+		A048BF172984FD7300DA3D85 /* Fonts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A048BF162984FD7300DA3D85 /* Fonts.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		A048BE912984F26000DA3D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A048BE942984F26000DA3D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A048BE962984F26000DA3D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A048BE9C2984F3AD00DA3D85 /* CSFont.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CSFont.entitlements; sourceTree = "<group>"; };
+		A048BF162984FD7300DA3D85 /* Fonts.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fonts.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +59,13 @@
 		A048BE872984F25D00DA3D85 /* CSFont */ = {
 			isa = PBXGroup;
 			children = (
+				A048BE9C2984F3AD00DA3D85 /* CSFont.entitlements */,
 				A048BE882984F25D00DA3D85 /* AppDelegate.swift */,
 				A048BE8A2984F25D00DA3D85 /* SceneDelegate.swift */,
 				A048BE8C2984F25D00DA3D85 /* ViewController.swift */,
 				A048BE8E2984F25D00DA3D85 /* Main.storyboard */,
 				A048BE912984F26000DA3D85 /* Assets.xcassets */,
+				A048BF162984FD7300DA3D85 /* Fonts.xcassets */,
 				A048BE932984F26000DA3D85 /* LaunchScreen.storyboard */,
 				A048BE962984F26000DA3D85 /* Info.plist */,
 			);
@@ -94,6 +99,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					fonts,
+				);
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -128,6 +136,7 @@
 				A048BE952984F26000DA3D85 /* LaunchScreen.storyboard in Resources */,
 				A048BE922984F26000DA3D85 /* Assets.xcassets in Resources */,
 				A048BE902984F25D00DA3D85 /* Main.storyboard in Resources */,
+				A048BF172984FD7300DA3D85 /* Fonts.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CSFont/CSFont.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54Z32G7BP3;
@@ -295,12 +305,14 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo666666.CSFont;
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = fonts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CSFont;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CSFont/CSFont.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54Z32G7BP3;
@@ -323,12 +336,14 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.demo666666.CSFont;
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = fonts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CSFont;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

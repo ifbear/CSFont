@@ -1,0 +1,17 @@
+{
+  "data" : [
+    {
+      "filename" : "HarmonyOS_Sans_TC_Medium.ttf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "on-demand-resource-tags" : [
+      "fonts"
+    ]
+  }
+}
