@@ -8,10 +8,32 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private lazy var label: UILabel = {
+        let label = UILabel()
+        label.text = "这是什么字体"
+        label.font = UIFont(name: "HarmonyOS_Sans_SC", size: 17.0)
+        return label
+    }()
+    private lazy var label2: UILabel = {
+        let label = UILabel()
+        label.text = "这是什么字体2"
+        label.font = UIFont.systemFont(ofSize: 17.0)
+        return label
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print(CTFontManagerCopyRegisteredFontDescriptors(.persistent, true))
+        view.addSubview(label)
+        label.frame = .init(x: 100, y: 100, width: 300, height: 32)
+        
+        
+        view.addSubview(label2)
+        label2.frame = .init(x: 100, y: 200, width: 300, height: 32)
+        
+        
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
